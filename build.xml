@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<project name="JavaApp" default="run" basedir=".">
+
+  <property name="src" value="src"/>
+  <property name="build" value="build"/>
+
+  <target name="init">
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init">
+    <javac srcdir="${src}" destdir="${build}" includeantruntime="false"/>
+  </target>
+
+  <target name="run" depends="compile">
+    <java classname="Main" classpath="${build}"/>
+  </target>
+
+</project>
