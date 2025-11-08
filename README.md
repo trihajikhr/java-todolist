@@ -14,3 +14,9 @@ Made by 💖
 - Membuat fitur `Project` untuk membungkus daftar `Inbox`. Opsi yang mengelompokan (grouping) daftar `Inbox`. 
 - Menambahkan opsi `Inbox` sebagai grouping `Task`, dengan fitur ganti nama Inbox, prioritas, dan urutkan berdasarkan pembuatan (date created).
 - Mengatasi beberapa file `jar` tambahan, maka digunakan project build yaitu Maven.
+- Menambahkan beberapa library penting (_dependencies berasal dari [Maven Repository](https://mvnrepository.com/)_), seperti:
+  1. [Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson), library Java yang berguna untuk melakukan pembacaan dan penulisan data dengan file eksternal JSON.
+  2. [Flatlaf](https://central.sonatype.com/artifact/com.formdev/flatlaf), Javax.swing memiliki tampilan yang kurang modern, sehingga digunakan library Flatlaf yang menawarkan tampilan yang lebih modern dan smooth.
+  3. [SQLite JDBC](https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc), library Java untuk mengkoneksikan aplikasi Java dengan SQLite.
+  4. [JFreeChart](https://mvnrepository.com/artifact/org.jfree/jfreechart), library Java untuk menanmpilkan dan mengenerate chart atau grafik, support beberapa desain dan tipe chart.
+  5. [OpenCVS](https://mvnrepository.com/artifact/com.opencsv/opencsv), Java bisa melakukan pembacaan dan penulisan file dengan file CSV tanpa library tambahan. Namun library ini bisa digunakan untuk menangani beberapa konfigurasi yang mungkin belum ada di Java.
