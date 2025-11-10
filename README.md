@@ -22,4 +22,4 @@ Made by 💖
 ## V0.0.2 (10/11/2025)
 
 - Menyederhanakan fitur `workspace`, dan mengalihkan opsi-opsi yang sebelumnya dimiliki oleh `workspace` menjadi milik fitur `project`.
-- Berlatih dengan Try Catch, dan menggunakan DateTimeFormatter untuk menampilkan tanggal dengan format custom
+- Penanganan kesalahn inputan lebih baik dengan Try Catch, dan menggunakan DateTimeFormatter untuk menampilkan tanggal dengan format custom
