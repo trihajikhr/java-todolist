@@ -57,5 +57,21 @@ public class Helper {
         scan.nextLine();
         return ans;
     }
+
+    // cek panjang string aje
+    public String safeStringInput(String prompt, int len){
+        String ans;
+        while(true) {
+            System.out.print(prompt);
+            ans = scan.nextLine();
+            if(ans.length() <= len) {
+                break;
+            } else {
+                System.out.println("Input terlalu panjang! Melebihi batas " + len + " karakter!");
+                scan.nextLine();
+            }
+        }
+        return ans;
+    }
 }
 
