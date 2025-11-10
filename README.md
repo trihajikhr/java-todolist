@@ -1,4 +1,4 @@
-# Dev Log
+# Dev Log | Terminal Version
 
 ![todoist webpage](todoist_page.png)
 
@@ -22,4 +22,4 @@ Made by 💖
 ## V0.0.2 (10/11/2025)
 
 - Menyederhanakan fitur `workspace`, dan mengalihkan opsi-opsi yang sebelumnya dimiliki oleh `workspace` menjadi milik fitur `project`.
-- Penanganan kesalahn inputan lebih baik dengan Try Catch, dan menggunakan DateTimeFormatter untuk menampilkan tanggal dengan format custom
+- Penanganan kesalahan inputan lebih baik dengan Try Catch, dan menggunakan DateTimeFormatter untuk menampilkan tanggal dengan format custom.
